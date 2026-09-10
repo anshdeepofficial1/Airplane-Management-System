@@ -1,107 +1,69 @@
-# ✈️ Airplane Management System (C++)
-<p align="center">
-  <a href="https://github.com/sponsors/anshdeepofficial"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" height="40" /></a>
-  <a href="https://buymeacoffee.com/anshdeepofficial"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="40" /></a>
-</p>
+<div align="center">
 
-## 📝 Project Overview
+# ✈️ Airplane Management System
 
-The **Airplane Management System** is a C++ console-based project designed to simulate airport flight management operations. It allows administrators to **add, view, update, and manage flights, assign runways, display weather conditions, and save flight data** to a file for record-keeping.
+**A C++ console project for managing flights, runway assignments, status updates, weather simulation, and flight records.**
 
-This project demonstrates the practical application of **Object-Oriented Programming (OOP)** concepts such as classes, inheritance, encapsulation, and abstraction. It also showcases the use of **file handling**, **randomization**, and **data structures** (like vectors) to manage dynamic lists of flights efficiently.
+![C++](https://img.shields.io/badge/C++-OOP-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Console](https://img.shields.io/badge/App-Console-111827?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/anshdeepofficial/Airplane-Management-System?style=for-the-badge&logo=github)
+
+<a href="https://github.com/sponsors/anshdeepofficial"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" /></a>
+<a href="https://buymeacoffee.com/anshdeepofficial"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000" alt="Buy Me a Coffee" /></a>
+
+</div>
 
 ---
+
+## ✨ Overview
+
+Airplane Management System is a menu-driven C++ application designed to simulate common flight-management operations while demonstrating object-oriented programming, file handling, STL containers, and structured application logic.
 
 ## 🚀 Features
 
-* **Add New Flight:** Enter flight details such as number, airline, origin, destination, and arrival time.
-* **View All Flights:** Display all recorded flights with their status and assigned runway.
-* **Update Flight Status:** Change flight status to *Arriving*, *Delayed*, or *Landed*.
-* **Assign Runway:** Assign a runway number to a specific flight.
-* **Weather Simulation:** Randomly generate weather conditions (Clear, Rainy, Foggy, Stormy) that affect flight operations.
-* **Save Flight Data:** Save flight information to a text file (`flights.txt`) for record storage.
+- Add and view flight records
+- Update flight status
+- Assign runways to flights
+- Simulate weather conditions
+- Save flight data to a text file
+- Manage dynamic flight collections using vectors
+- Organized class-based architecture
 
----
+## 🧩 Core Components
 
-## ⚙️ Concepts Used
+| Component | Responsibility |
+| --- | --- |
+| `Flight` | Stores and displays flight information |
+| `Weather` | Generates weather conditions |
+| `Airport` | Coordinates flight-management operations |
 
-* **Classes and Objects** – to structure data and functionality.
-* **Encapsulation** – to protect flight data through controlled access.
-* **Abstraction** – to simplify operations for the end-user.
-* **Polymorphism** – for potential future extensions using virtual functions.
-* **File Handling** – for saving and retrieving flight information.
-* **Randomization** – for generating weather conditions.
-* **Vectors (STL)** – to dynamically store and manage flight objects.
+## 🛠️ Concepts & Tech
 
----
+- **Language:** C++
+- **Programming style:** Object-Oriented Programming
+- **Storage:** File handling with `fstream`
+- **Data structures:** STL `vector`
+- **Other concepts:** Encapsulation, abstraction, randomization, menu-driven control flow
 
-## 💡 How It Works
+## ⚡ Getting Started
 
-1. The program displays a **menu** with options to manage flights.
-2. Users can add new flights, update their status, assign runways, or check current weather.
-3. Weather is generated randomly, affecting flight messages.
-4. Data can be saved to `flights.txt` for future use.
-
-Example file content:
-
-```
-AI202,Arriving
-BA304,Delayed
-QR401,Landed
+```bash
+git clone https://github.com/anshdeepofficial/Airplane-Management-System.git
+cd Airplane-Management-System
 ```
 
----
+Compile the C++ source using GCC, MinGW, Visual Studio, or another compatible compiler, then run the generated executable.
 
-## 🧩 Class Structure
+## 🎓 Learning Focus
 
-### `Flight`
+The project provides hands-on practice with classes and objects, dynamic collections, persistent text-file output, and the organization of multiple responsibilities into a small application.
 
-Handles flight details and displays flight information.
+## 🤝 Contributing
 
-### `Weather`
-
-Generates and displays random weather conditions.
-
-### `Airport`
-
-Manages all operations such as adding, updating, displaying, and saving flights.
+Improvements are welcome. Keep pull requests focused and test flight creation, status changes, runway assignment, and data saving before submitting.
 
 ---
 
-## 🧠 Learning Outcomes
-
-* Understand and apply **Object-Oriented Programming** in C++.
-* Learn how to handle **files** and **data persistence**.
-* Implement **menu-driven** programs using loops and conditionals.
-* Work with **vectors** for dynamic data management.
-* Combine multiple programming concepts into a single integrated project.
-
----
-
-## 🛠️ Technologies Used
-
-* **Language:** C++
-* **Compiler:** GCC / MinGW
-* **IDE:** Code::Blocks / Dev-C++ / Visual Studio Code
-* **Libraries:**
-
-  * `<iostream>` – Input/Output operations
-  * `<fstream>` – File handling
-  * `<vector>` – Dynamic data storage
-  * `<cstdlib>` and `<ctime>` – Randomization utilities
-
----
-
-## 📚 Future Enhancements
-
-* Load previously saved flight data on program start.
-* Add **passenger** and **crew management** modules.
-* Include **real-time weather data** using APIs.
-* Develop a **graphical user interface (GUI)**.
-* Integrate a **database system (MySQL)** for scalable storage.
-
----
-
-## 🏁 Conclusion
-
-The **Airplane Management System** is a beginner-friendly yet feature-rich C++ project that provides hands-on experience with OOP concepts, file handling, and structured programming. It serves as a strong foundation for students and developers who wish to explore real-world system design and C++ application development.
+<div align="center">
+Built by <a href="https://github.com/anshdeepofficial">Anshdeep Singh</a>
+</div>
